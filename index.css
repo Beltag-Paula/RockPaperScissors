@@ -1,0 +1,44 @@
+#computerTiles, #humanTiles{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+/*.computerTiles > .rock, .computerTiles> .paper, .computerTiles>.scissors{
+  border: 5px solid red; 
+}*/
+
+/*.humanTiles{
+  border: 5px solid blue;
+}*/
+
+.rock {
+  width: 200px;
+  height: 200px;
+  background-image: url('rock.jpeg');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.paper {
+  width: 200px;
+  height: 200px;
+  background-image: url('paper.jpeg');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.scissors {
+  width: 200px;
+  height: 200px;
+  background-image: url('scissors.jpeg');
+  background-size: cover; 
+  background-position: center; 
+}
+
+#messageArea{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: green;
+}
